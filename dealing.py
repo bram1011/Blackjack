@@ -26,6 +26,7 @@ def deal(isfirst):
     d = dealer()
     if isfirst:
         h.reset_hand()
+        d.reset_hand()
     elif isfirst == False:
         pass
     print "Your current total is ",h.get_hand()
