@@ -45,6 +45,7 @@ def deal(isfirst):
     elif d.sum_of_hand() > 21:
         print "The dealer busted!"
         p.add_money(p.get_bet())
+        back()
     draw = raw_input("Would you like to draw a card? ")
     if draw == 'y':
         chance = random.randint(2,14)
