@@ -22,3 +22,4 @@ class dealer(object):
     def reset_hand(self):
         self.hand = []
         
+d = dealer()
