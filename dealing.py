@@ -1,6 +1,6 @@
 import random
 from hand import h
-from bot import dealer
+from bot import d
 from player import p
 
 betAmount = 0
@@ -23,7 +23,6 @@ def take_bet():
         p.set_bet(betAmount)
 
 def deal(isfirst):
-    d = dealer()
     if isfirst:
         h.reset_hand()
         d.reset_hand()
